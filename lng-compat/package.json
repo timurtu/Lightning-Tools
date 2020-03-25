@@ -1,0 +1,23 @@
+{
+  "name": "lng-compat",
+  "version": "1.4.3",
+  "description": "Make sure a lightning app will run in the browser and on a device",
+  "main": "bin/index.js",
+  "bin": {
+    "lng-compat": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lightning",
+    "app",
+    "compatibility"
+  ],
+  "author": "Timur Uzel <timurt.uzel@gmail.com> (https://github.com/timurtu)",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "glob": "^7.1.6"
+  }
+}
