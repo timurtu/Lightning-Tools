@@ -5,9 +5,6 @@ const glob = require('glob')
 const chalk = require('chalk')
 
 const keywords = ['document']
-
-console.log(process.argv)
-
 const path = process.argv[3] ? process.argv[3] : 'src'
 
 const filenames = glob.sync(path + '/**/*.js', {})
