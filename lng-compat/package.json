@@ -1,6 +1,6 @@
 {
   "name": "lng-compat",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "Make sure a lightning app will run in the browser and on a device",
   "main": "bin/index.js",
   "bin": {
